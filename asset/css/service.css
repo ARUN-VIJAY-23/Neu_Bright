@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Josefin";
+  src: url("../fonts/ufonts.com_hoefler-text.ttf") format("ttf");
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #121140;
+  --secondary-color: #f5921e;
+  --font-family: "Josefin Sans", sans-serif;
+  --secondary-font: "Josefin", sans-serif;
+  --font-size-base: 16px;
+  --white-color: #fff;
+}
+
+.service__section-holder {
+    display: flex;
+    gap: 20px;
+    padding-block: 50px;
+    align-items: end;
+}
+
+.service__contents {
+  padding: 120px 0 85px 0;
+  max-width: 1455px;
+  height: 100%;
+  width: calc(100% - 700px);
+}
+.service__contents h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  max-width: 738px;
+  margin-bottom: 84px;
+}
+.service__contents p {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+.service__img-holder{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: red;
+}   

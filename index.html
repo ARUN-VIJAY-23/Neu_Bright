@@ -1,176 +1,634 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/common.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
     <title>Neu Bright Partners</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="">
-                <img src="./asset/images/nav-logo.webp" alt="nav-logo" width="241" height="99">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link active" aria-current="page" href="">HOME</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="about-us">About Us</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="services">Services</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="showcase">SHOWCASE</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="insights">Insights</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="faqs">FAQs</a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a class="nav-link" href="contact-us">CONTACT Us</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img
+            src="./asset/images/nav-logo.webp"
+            alt="nav-logo"
+            width="241"
+            height="99"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item fw-bold">
+              <a class="nav-link active" aria-current="page" href="">HOME</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="about-us">About Us</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="showcase">SHOWCASE</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="insights">Insights</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="faqs">FAQs</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#contact-us">CONTACT Us</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <main>
-        <section class="section" id="hero">
-            <div class="container">
-                <div class="hero__section-holder">
-                    <div class="hero__contents">
-                        <h1>Your Trusted Partner in Stakeholder Engagement</h1>
-                        <p>In today’s world, building meaningful connections are as important as your product &
-                            financial
-                            results. At Neubright partners, we draw on the science of insights & art of communication to
-                            create & enhance brand reputation and deepen relationships with all stakeholders—customers,
-                            employees, investors, communities, and policymakers.
-                            Whether you’re a startup or a global enterprise, Neubright Partners is your trusted partner
-                            in
-                            ensuring your messages resonate and your relationships flourish.
-                        </p>
-                        <div class="btn__holder">
-                            <button class="secondary-btn">
-                                Explore Services
-                                <img src="./asset/images/btn-arrow-wh.webp" alt="arrow">
-                            </button>
-                            <button class="primary-btn">
-                                Let's Begin the Journey
-                                <img src="./asset/images/btn-arrow.webp" alt="arrow">
-                            </button>
-                        </div>
-                    </div>
-                    <img src="./asset/images/hero-image.webp" alt="hero" width="1920" height="1012" />
-                </div>
+      <section class="section" id="hero">
+        <div class="container">
+          <div class="hero__section-holder">
+            <div class="hero__contents">
+              <h1>Your Trusted Partner in Stakeholder Engagement</h1>
+              <p>
+                In today’s world, building meaningful connections are as
+                important as your product & financial results. At Neubright
+                partners, we draw on the science of insights & art of
+                communication to create & enhance brand reputation and deepen
+                relationships with all stakeholders—customers, employees,
+                investors, communities, and policymakers. Whether you’re a
+                startup or a global enterprise, Neubright Partners is your
+                trusted partner in ensuring your messages resonate and your
+                relationships flourish.
+              </p>
+              <div class="btn__holder">
+                <button class="secondary-btn">
+                  Explore Services
+                  <img src="./asset/images/btn-arrow-wh.webp" alt="arrow" />
+                </button>
+                <button class="primary-btn">
+                  Let's Begin the Journey
+                  <img src="./asset/images/btn-arrow.webp" alt="arrow" />
+                </button>
+              </div>
             </div>
-        </section>
+            <img
+              src="./asset/images/hero-image.webp"
+              alt="hero"
+              width="1920"
+              height="1012"
+            />
+          </div>
+        </div>
+      </section>
 
-        <section class="guide__section">
-            <div class="container">
-                <div class="guide__section-contents">
-                    <h2>Guided by True North</h2>
-                    <p>Your True North is our guiding compass. It represents your unwavering commitment to core values
-                        and long-term goals. At Neubright Partners, we align every strategy with your True North,
-                        ensuring purpose-driven results that build trust and create impact.
-                    </p>
-                    <div class="btn__holder">
-                        <button class="secondary-btn">
-                            Learn more about Neubright
-                            <img src="./asset/images/btn-arrow-wh.webp" alt="arrow">
-                        </button>
-                    </div>
-                </div>
+      <section class="guide__section">
+        <div class="container">
+          <div class="guide__section-contents">
+            <h2>Guided by True North</h2>
+            <p>
+              Your True North is our guiding compass. It represents your
+              unwavering commitment to core values and long-term goals. At
+              Neubright Partners, we align every strategy with your True North,
+              ensuring purpose-driven results that build trust and create
+              impact.
+            </p>
+            <div class="btn__holder">
+              <button class="secondary-btn">
+                Learn more about Neubright
+                <img src="./asset/images/btn-arrow-wh.webp" alt="arrow" />
+              </button>
             </div>
-            <img src="./asset/images/compose.webp" alt="hero" width="1820" height="868" />
-        </section>
+          </div>
+        </div>
+        <img
+          src="./asset/images/compose.webp"
+          alt="hero"
+          width="1820"
+          height="868"
+        />
+      </section>
 
-        <section class="solution__section">
-            <div class="container">
-                <div class="solution__section-contents">
-                    <h2>What do we do</h2>
-                    <p class="overriden__text">Real Solutions for Real Challenges</p>
-                    <p>At Neubright Partners, we help brands navigate complexity, build trust, and achieve measurable impact. Our expertise spans corporate communications, branding, and reporting, designed to solve your most pressing business challenges</p>
-                </div>
-                <div class="solution__section-wrapper">
-                    <div class="card__holder light">
-                        <h3>Sustainability and Reporting</h3>
-                        <p class="des">Driving Sustainable Impact Through Transparent Reporting</p>
-                        <p>Empower your business to align with global ESG standards, communicate your commitments, and craft compelling reports that showcase your achievements.</p>
-                        <a href="#">Learn more <img src="./asset/images/small-arrow.webp" alt="small-arrow" width="21" height="21"></a>
-                    </div>
-                    <div class="card__holder">
-                        <h3>Investor Communications</h3>
-                        <p class="des">Building Trust, Strengthening Reputation</p>
-                        <p>Strategic solutions to connect authentically with stakeholders and enhance your reputation</p>
-                        <a href="#">Learn more <img src="./asset/images/small-arrow.webp" alt="small-arrow" width="21" height="21"></a>
-                    </div>
-                    <div class="card__holder">
-                        <h3>Brand and Culture</h3>
-                        <p class="des">Creating Memorable Brand Experiences</p>
-                        <p>Create purpose-driven strategies that define your identity, engage employees, and inspire trust among audiences.</p>
-                        <a href="#">Learn more <img src="./asset/images/small-arrow.webp" alt="small-arrow" width="21" height="21"></a>
-                    </div>
-                    <div class="card__holder light">
-                        <h3>Digital Innovation & Engagement</h3>
-                        <p class="des">Enhancing Connections Through Digital Solutions</p>
-                        <p>Transform your digital presence with innovative strategies, seamless user experiences, and measurable results.</p>
-                        <a href="#">Learn more <img src="./asset/images/small-arrow.webp" alt="small-arrow" width="21" height="21"></a>
-                    </div>
-                </div>
+      <section class="solution__section">
+        <div class="container">
+          <div class="solution__section-contents">
+            <h2>What do we do</h2>
+            <p class="overriden__text">Real Solutions for Real Challenges</p>
+            <p>
+              At Neubright Partners, we help brands navigate complexity, build
+              trust, and achieve measurable impact. Our expertise spans
+              corporate communications, branding, and reporting, designed to
+              solve your most pressing business challenges
+            </p>
+          </div>
+          <div class="solution__section-wrapper">
+            <div class="card__holder light">
+              <h3>Sustainability and Reporting</h3>
+              <p class="des">
+                Driving Sustainable Impact Through Transparent Reporting
+              </p>
+              <p>
+                Empower your business to align with global ESG standards,
+                communicate your commitments, and craft compelling reports that
+                showcase your achievements.
+              </p>
+              <a href="#"
+                >Learn more
+                <img
+                  src="./asset/images/small-arrow.webp"
+                  alt="small-arrow"
+                  width="21"
+                  height="21"
+              /></a>
             </div>
-        </section>
-
-        <!-- <section class="stories__section">
-            <div class="container">
-
+            <div class="card__holder">
+              <h3>Investor Communications</h3>
+              <p class="des">Building Trust, Strengthening Reputation</p>
+              <p>
+                Strategic solutions to connect authentically with stakeholders
+                and enhance your reputation
+              </p>
+              <a href="#"
+                >Learn more
+                <img
+                  src="./asset/images/small-arrow.webp"
+                  alt="small-arrow"
+                  width="21"
+                  height="21"
+              /></a>
             </div>
-        </section> -->
-
-        <section class="showcase__section">
-            <div class="container">
-                <div class="showcase__contents">
-                    <h2>Blogs</h2>
-                    <p>Stay informed with the latest insights, reports, and blog posts from our experts.</p>
-                </div>
-                <div class="showcase__card-wrapper">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div>
+            <div class="card__holder">
+              <h3>Brand and Culture</h3>
+              <p class="des">Creating Memorable Brand Experiences</p>
+              <p>
+                Create purpose-driven strategies that define your identity,
+                engage employees, and inspire trust among audiences.
+              </p>
+              <a href="#"
+                >Learn more
+                <img
+                  src="./asset/images/small-arrow.webp"
+                  alt="small-arrow"
+                  width="21"
+                  height="21"
+              /></a>
             </div>
-        </section>
+            <div class="card__holder light">
+              <h3>Digital Innovation & Engagement</h3>
+              <p class="des">Enhancing Connections Through Digital Solutions</p>
+              <p>
+                Transform your digital presence with innovative strategies,
+                seamless user experiences, and measurable results.
+              </p>
+              <a href="#"
+                >Learn more
+                <img
+                  src="./asset/images/small-arrow.webp"
+                  alt="small-arrow"
+                  width="21"
+                  height="21"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stories__section">
+        <img
+          src="./asset/images/semi-colon.webp"
+          alt="semicolon"
+          class="colon__bg"
+        />
+        <div class="container">
+          <div class="stories__contents">
+            <h2>Impact Stories</h2>
+            <div class="stories__card-holder">
+              <div class="stories__card">
+                <img
+                  src="./asset/images/semi-colon-1.webp"
+                  alt="semi-colon"
+                  class="left-colon"
+                />
+                <img
+                  src="./asset/images/semi-colon-2.webp"
+                  alt="semi-colon"
+                  class="right-colon"
+                />
+                <p>
+                  Include quotes from satisfied clients or short excerpts from
+                  case studies.
+                </p>
+                <span class="title">Name Surname</span>
+                <span class="sub-title">Designation</span>
+              </div>
+              <div class="stories__card">
+                <img
+                  src="./asset/images/semi-colon-1.webp"
+                  alt="semi-colon"
+                  class="left-colon"
+                />
+                <img
+                  src="./asset/images/semi-colon-2.webp"
+                  alt="semi-colon"
+                  class="right-colon"
+                />
+                <p>
+                  Include quotes from satisfied clients or short excerpts from
+                  case studies.
+                </p>
+                <span class="title">Name Surname</span>
+                <span class="sub-title">Designation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase__section">
+        <div class="container">
+          <div class="showcase__contents">
+            <h2>Showcase</h2>
+            <p>
+              Stay informed with the latest insights, reports, and blog posts
+              from our experts.
+            </p>
+          </div>
+          <div class="showcase__card-wrapper swiper">
+            <div class="swiper-wrapper">
+              <div class="showcase__card swiper-slide">
+                <img src="./asset/images/showcase.webp" alt="showcase" />
+                <h6>Sustainability Report Creation</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                  adipisci mollitia atque sapiente illum fuga distinctio
+                  laboriosam ratione quo aliquam dolorem voluptates!
+                </p>
+                <a href="#"
+                  >Discover More
+                  <img
+                    src="./asset/images/small-arrow.webp"
+                    alt="arrow"
+                    class="arrow"
+                /></a>
+              </div>
+              <div class="showcase__card swiper-slide">
+                <img src="./asset/images/showcase.webp" alt="showcase" />
+                <h6>Annual Report Digitization</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                  adipisci mollitia atque sapiente illum fuga distinctio
+                  laboriosam ratione quo aliquam dolorem voluptates!
+                </p>
+                <a href="#"
+                  >Discover More
+                  <img
+                    src="./asset/images/small-arrow.webp"
+                    alt="arrow"
+                    class="arrow"
+                /></a>
+              </div>
+              <div class="showcase__card swiper-slide">
+                <img src="./asset/images/showcase.webp" alt="showcase" />
+                <h6>Digital Presence Optimization</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                  adipisci mollitia atque sapiente illum fuga distinctio
+                  laboriosam ratione quo aliquam dolorem voluptates!
+                </p>
+                <a href="#"
+                  >Discover More
+                  <img
+                    src="./asset/images/small-arrow.webp"
+                    alt="arrow"
+                    class="arrow"
+                /></a>
+              </div>
+              <div class="showcase__card swiper-slide">
+                <img src="./asset/images/showcase.webp" alt="showcase" />
+                <h6>Annual Report Digitization</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                  adipisci mollitia atque sapiente illum fuga distinctio
+                  laboriosam ratione quo aliquam dolorem voluptates!
+                </p>
+                <a href="#"
+                  >Discover More
+                  <img
+                    src="./asset/images/small-arrow.webp"
+                    alt="arrow"
+                    class="arrow"
+                /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="btn__holder">
+            <button class="secondary-btn">
+              View All
+              <img src="./asset/images/btn-arrow-wh.webp" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog__section">
+        <div class="container">
+          <div class="blog__contents">
+            <h2>Blogs</h2>
+            <p>
+              Stay informed with the latest insights, reports, and blog posts
+              from our experts.
+            </p>
+          </div>
+          <div class="blog__card-wrapper swiper">
+            <div class="swiper-wrapper">
+              <div class="blog__card swiper-slide">
+                <img src="./asset/images/blog.webp" alt="blog" />
+                <div class="contents">
+                  <h6>Blog 1 Title</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                    adipisci mollitia atque sapiente illum fuga distinctio
+                    laboriosam ratione quo aliquam dolorem voluptates!
+                  </p>
+                  <a href="#"
+                    >Read More
+                    <img
+                      src="./asset/images/small-arrow.webp"
+                      alt="arrow"
+                      class="arrow"
+                  /></a>
+                </div>
+              </div>
+              <div class="blog__card swiper-slide">
+                <img src="./asset/images/blog.webp" alt="blog" />
+                <div class="contents">
+                  <h6>Blog 2 Title</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                    adipisci mollitia atque sapiente illum fuga distinctio
+                    laboriosam ratione quo aliquam dolorem voluptates!
+                  </p>
+                  <a href="#"
+                    >Read More
+                    <img
+                      src="./asset/images/small-arrow.webp"
+                      alt="arrow"
+                      class="arrow"
+                  /></a>
+                </div>
+              </div>
+              <div class="blog__card swiper-slide">
+                <img src="./asset/images/blog.webp" alt="blog" />
+                <div class="contents">
+                  <h6>Blog 3 Title</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                    adipisci mollitia atque sapiente illum fuga distinctio
+                    laboriosam ratione quo aliquam dolorem voluptates!
+                  </p>
+                  <a href="#"
+                    >Read More
+                    <img
+                      src="./asset/images/small-arrow.webp"
+                      alt="arrow"
+                      class="arrow"
+                  /></a>
+                </div>
+              </div>
+              <div class="blog__card swiper-slide">
+                <img src="./asset/images/blog.webp" alt="blog" />
+                <div class="contents">
+                  <h6>Blog 4 Title</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus vel vitae dignissimos, sunt velit sit nulla eaque
+                    adipisci mollitia atque sapiente illum fuga distinctio
+                    laboriosam ratione quo aliquam dolorem voluptates!
+                  </p>
+                  <a href="#"
+                    >Read More
+                    <img
+                      src="./asset/images/small-arrow.webp"
+                      alt="arrow"
+                      class="arrow"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="btn__holder">
+            <button class="secondary-btn">
+              View All
+              <img src="./asset/images/btn-arrow-wh.webp" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactUs__section">
+        <div class="form__holder">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <form class="form__wrapper">
+              <div class="row__wrapper">
+                <div class="input__wrapper">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    autocomplete="off"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="input__wrapper">
+                  <label for="email">email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    autocomplete="off"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+
+              <div class="row__wrapper">
+                <div class="input__wrapper">
+                  <label for="phone">phone number</label>
+                  <input
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    maxlength="10"
+                    autocomplete="off"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="input__wrapper">
+                  <label for="company">company</label>
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    autocomplete="off"
+                    placeholder="Company"
+                  />
+                </div>
+              </div>
+
+              <div class="row__wrapper">
+                <div class="input__wrapper">
+                  <label for="request">Request Type</label>
+                  <div class="select__holder">
+                    <select
+                      name="request"
+                      id="request"
+                      autocomplete="off"
+                      aria-placeholder="Request Type"
+                    >
+                      <option selected>Request Type</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row__wrapper">
+                <div class="input__wrapper">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    cols="40"
+                    id="message"
+                    autocomplete="off"
+                    placeholder="Type your message here..."
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="btn__holder">
+                <button class="secondary-btn" type="button">
+                  Submit Your details
+                  <img src="./asset/images/btn-arrow-wh.webp" alt="arrow" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="address__holder">
+          <div class="address__contents">
+            <h3>Neubright Partners Pvt. Ltd.</h3>
+            <p>202, Options Primo Building, MIDC, Mumbai - 400093</p>
+            <ul class="address__links">
+              <li><img src="./asset/images/mail.webp" alt="mail" />info@neubright.in</li>
+              <li><img src="./asset/images/phone.webp" alt="phone" />+91 98334 52757</li>
+              <li><img src="./asset/images/global.webp" alt="global" /> www.neubright.in</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__holder">
+          <div class="footer__logo-holder">
+            <img src="./asset/images/footer-logo.webp" alt="footer-logo" />
+            <div class="icon-holder">
+              <img src="./asset/images/youtube.webp" alt="youtube" />
+              <img src="./asset/images/linkedin.webp" alt="linkedin" />
+            </div>
+          </div>
+          <div class="footer__link-wrapper">
+            <ul class="footer__link-holder">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">SHOWCASE</a></li>
+              <li><a href="#">Insights</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">CONTACT Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <div class="footer__form">
+              <h6>Stay Connected</h6>
+              <form class="footer__form-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  autocomplete="off"
+                  placeholder="Name"
+                  class="input"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  placeholder="Email"
+                  class="input"
+                />
+                <button type="button">
+                  Sign up Now
+                  <img src="./asset/images/arrow-black.webp" alt="arrow" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="asset/js/swiper.js"></script>
+  </body>
 </html>
