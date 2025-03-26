@@ -46,6 +46,12 @@ a{
   gap: 50px;
 }
 
+.navbar-expand-lg{
+  position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
 .navbar-nav .nav-item .nav-link.active {
   position: relative;
 }

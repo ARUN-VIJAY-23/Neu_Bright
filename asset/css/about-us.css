@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../fonts/ufonts.com_hoefler-text.ttf") format("ttf");
+    font-weight: normal;
+  }
+  
+  :root {
+    --primary-color: #121140;
+    --secondary-color: #f5921e;
+    --font-family: "Josefin Sans", sans-serif;
+    --secondary-font: "Josefin", sans-serif;
+    --font-size-base: 16px;
+    --white-color: #fff;
+  }
