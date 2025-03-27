@@ -1,14 +1,321 @@
 @font-face {
-    font-family: "Josefin";
-    src: url("../fonts/ufonts.com_hoefler-text.ttf") format("ttf");
-    font-weight: normal;
-  }
-  
-  :root {
-    --primary-color: #121140;
-    --secondary-color: #f5921e;
-    --font-family: "Josefin Sans", sans-serif;
-    --secondary-font: "Josefin", sans-serif;
-    --font-size-base: 16px;
-    --white-color: #fff;
-  }
+  font-family: "Josefin";
+  src: url("../fonts/ufonts.com_hoefler-text.ttf") format("ttf");
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #121140;
+  --secondary-color: #f5921e;
+  --font-family: "Josefin Sans", sans-serif;
+  --secondary-font: "Josefin", sans-serif;
+  --font-size-base: 16px;
+  --white-color: #fff;
+}
+
+.aboutUs__section-holder {
+  display: flex;
+  gap: 20px;
+  padding: 175px 0 50px;
+  align-items: center;
+}
+
+.aboutUs__contents {
+  padding: 120px 0 85px 0;
+  max-width: 1455px;
+  height: 100%;
+  width: calc(100% - 700px);
+}
+.aboutUs__contents h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 84px;
+}
+.aboutUs__contents p {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+.aboutUs__img-holder {
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.aboutUs__img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.partner__section-holder {
+  padding-block: 70px;
+}
+.partner__section-holder h2 {
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.partner__section-holder .flex-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 60px;
+}
+.partner__contents h3 {
+  margin-bottom: 72px;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+.partner__contents p {
+  margin-bottom: 25px;
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+.partner__contents ul {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-bottom: 42px;
+  padding-left: 0;
+}
+.partner__contents ul li {
+  list-style: none;
+  opacity: 0.2;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.partner__contents .btn__holder button {
+  margin-top: 60px;
+  height: 78px;
+  border-radius: 39px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.partner__contents .btn__holder button img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: 64px;
+  right: 3px;
+  z-index: 1;
+}
+
+.partner__contents .btn__holder .secondary-btn {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  width: 391px;
+}
+.partner__img-holder {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.partner__img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mission__section {
+  padding: 100px 0 50px;
+}
+
+.mirage__holder {
+  position: relative;
+}
+.mirage__holder .title {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 122px;
+}
+.mirage__holder .para {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+.mirage__holder .sub-title {
+  position: absolute;
+  left: 0;
+  top: 55px;
+  font-size: 70px;
+  font-weight: normal;
+  line-height: 100px;
+  font-style: italic;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.mirage__holder .sub-title.light {
+  opacity: 0.46;
+}
+
+.misson__wrapper {
+  margin-block: 30px;
+  background: rgba(18, 17, 64, 0.1);
+  padding-block: 50px;
+}
+.misson__wrapper h4 {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+.values__wrapper {
+  margin-block: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.values__wrapper .values__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.values__card img {
+  width: 135px;
+  height: 135px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+.values__card h5 {
+  margin-bottom: 10px;
+  font-size: 31px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.values__card p {
+  font-family: var(--secondary-font);
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.story__section {
+  padding-block: 70px;
+}
+
+.team__section {
+  padding: 70px 0 85px;
+}
+.team-card-wrapper {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 50px;
+  row-gap: 70px;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #707070;
+  border-radius: 25px;
+  filter: drop-shadow(2px 3px 3.5px rgba(0, 0, 0, 0.34));
+  background: #ffffff;
+  gap: 10px;
+}
+.team-card .image-holder{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.team-card .image-holder img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.team-card .content-holder{
+  border-left: 5px solid var(--secondary-color);
+  padding: 25px 0 15px 15px;
+}
+.team-card .content-holder h6{
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 0;
+  text-align: left;
+}
+.team-card .content-holder p{
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 25px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+  font-family: var(--secondary-font);
+}
+
+.partner_secrion{
+  background: rgba(18, 17, 64, 0.1);
+  padding: 90px 82px;
+}
+.btn__holder button {
+  margin-top: 60px;
+  width: 326px;
+  height: 78px;
+  border-radius: 39px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.btn__holder button img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: 64px;
+  right: 3px;
+  z-index: 1;
+}
+
+.btn__holder .secondary-btn {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  width: 370px;
+}
