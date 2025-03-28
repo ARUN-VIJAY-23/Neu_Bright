@@ -16,36 +16,35 @@
 .service__section-holder {
   display: flex;
   gap: 20px;
-  padding: 175px 0 50px;
-  align-items: end;
+  padding: 120px 0 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .service__contents {
-  padding: 120px 0 85px 0;
-  max-width: 1455px;
+  padding: 60px 0;
   height: 100%;
-  width: calc(100% - 700px);
+  width: calc(100% - 600px);
 }
 .service__contents h1 {
-  font-size: 60px;
+  font-size: 42px;
   font-weight: bold;
   font-style: normal;
   text-align: left;
-  max-width: 738px;
-  margin-bottom: 84px;
+  margin-bottom: 60px;
 }
 .service__contents p {
   font-family: var(--secondary-font);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 20px;
   font-style: normal;
   text-align: left;
   color: #707070;
 }
 .service__img-holder {
-  width: 700px;
-  height: 400px;
+  width: 560px;
+  height: 360px;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -57,18 +56,18 @@
 }
 
 .services__tab-section {
-  padding: 80px 0 130px;
+  padding-block: 80px;
 }
 .services__tab-section .nav-pills {
   display: flex;
   justify-content: space-between;
-  border-bottom: 5px solid #f5921e1f;
+  border-bottom: 3px solid #f5921e1f;
 }
 .nav-pills .nav-link {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   position: relative;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   text-align: center;
@@ -77,8 +76,8 @@
   position: absolute;
   content: "";
   width: 100%;
-  height: 10px;
-  bottom: -6px;
+  height: 5px;
+  bottom: -3px;
   left: 0;
   background: var(--secondary-color);
 }
@@ -88,21 +87,21 @@
   color: var(--primary-color);
 }
 .tab-content {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 .services__tab-contents h2 {
-  margin-bottom: 40px;
-  font-size: 50px;
+  margin-bottom: 26px;
+  font-size: 32px;
   font-weight: bold;
   font-style: normal;
   text-align: left;
 }
 .services__tab-contents p {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   font-family: var(--secondary-font);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 20px;
   font-style: normal;
   text-align: left;
   color: #707070;
@@ -114,27 +113,27 @@
   gap: 100px;
 }
 .flex-container .contents h3 {
-  margin-bottom: 60px;
-  font-size: 50px;
+  margin-bottom: 40px;
+  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   text-align: left;
 }
 .flex-container .contents h4 {
-  margin-bottom: 40px;
-  font-size: 35px;
+  margin-bottom: 26px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   text-align: left;
 }
 .flex-container .contents ul {
-  margin-bottom: 110px;
+  margin-bottom: 80px;
 }
 .flex-container .contents li {
   font-family: var(--secondary-font);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 20px;
   font-style: normal;
   text-align: left;
   color: #707070;
@@ -142,10 +141,10 @@
 .flex-container .contents .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 34px;
 }
 .flex-container .contents .wrapper h6 {
-  font-size: 35px;
+  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   text-align: left;
@@ -153,8 +152,8 @@
   opacity: 0.20;
 }
 .flex-container .image-holder{
-  width: 700px;
-  height: 450px;
+  width: 600px;
+  height: 360px;
   border-radius: 35px;
   overflow: hidden;
 }
@@ -166,9 +165,9 @@
 }
 
 .btn__holder button {
-  margin-top: 60px;
-  height: 78px;
-  border-radius: 39px;
+  margin-top: 40px;
+  height: 60px;
+  border-radius: 35px;
   position: relative;
   cursor: pointer;
   outline: none;
@@ -176,15 +175,15 @@
   font-size: 20px;
   font-weight: bold;
   text-align: left;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .btn__holder button img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 64px;
-  height: 64px;
+  width: 52px;
+  height: 52px;
   right: 3px;
   z-index: 1;
 }
@@ -192,5 +191,5 @@
 .btn__holder .secondary-btn {
   background: var(--secondary-color);
   color: var(--white-color);
-  width: 370px;
+  width:280px;
 }

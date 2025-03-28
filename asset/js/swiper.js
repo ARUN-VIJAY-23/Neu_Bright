@@ -13,7 +13,7 @@ const swiperStories = new Swiper(".showcase__card-wrapper", {
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 48,
+      spaceBetween: 26,
     },
   },
 });
@@ -33,7 +33,7 @@ const swiperBlogs = new Swiper(".blog__card-wrapper", {
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 48,
+        spaceBetween: 26,
       },
     },
   });
